@@ -1,0 +1,132 @@
+/*
+Project-name: Pre-registration
+Author : Ahasanul Kalam Akib
+*/
+
+
+
+/*-----------------------START GLOBAL STYLE--------------------*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	line-height:26px;
+}
+
+.sm50{
+	margin-top:50px;
+}
+.sm100{
+	margin-top:100px;
+}
+.sm200{
+	margin-top:200px;
+}
+/*-----------------------END GLOBAL STYLE----------------------*/
+/*-----------------------body-------------------------------*/
+body{
+	width:100%;height:auto;
+}
+/*------------------------Header---------------------*/
+
+header{
+	background-color:#3b3b3b;
+	color:#f3f3f3;
+	height:60px;
+	
+}
+
+.site-navigation{
+		text-align:right;
+}
+ul.navigation li{
+	display:inline-block;
+	list-style:none;
+	padding:15px 30px;
+}
+ul.navigation li a{
+	color:#fff;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:12px;
+}
+ul.navigation li a:hover,
+ul.navigation li a:active{
+	color:#f26522;
+}
+.site-logo h4{
+	margin-left:30px;
+	font-family: 'PT Sans'!important;
+	font-weight:700;
+	padding-top:8px;
+}	
+
+/*----------------st_login_form-------------*/
+.login {
+	background: #eceeee;
+	border: 1px solid #000;
+	color:#000;
+	margin-top:60px;
+	
+  
+}
+.login h3{
+	text-align:center;
+}
+.login form span{font-size:15px;color:#000;padding-left:20px;}
+.login form input{width:90%;margin:5px 5px 5px 20px;padding:5px 20px;color:#000;font-size:17px}
+.login form button{padding:10px 20px;margin-left:20px;color:#fff;background-color:#325d88;border:none;margin-bottom:30px;}
+.login form a{text-decoration:none;}
+
+/*--------------------footer----------------*/
+footer{
+	background-color:#3b3b3b;
+	text-align:center;
+	padding:15px;
+	color:#fff;
+	margin-top:500px;
+	
+}
+
+
+/*----------------------Student profile----------------------------*/
+.st_profile{
+	margin-top:40px;
+	background-color:#E8E8FF;
+	
+}
+.st_profile h3,h4{text-align:center;}
+.st_profile img{width:50%;padding:20px;height:180px;margin-left:78px;}
+.st_profile strong{font-size:17px;color:#1A5276}
+.st_profile span{font-size:15px;padding:5px;font-weight:bold}
+.registered table{width:100%;}
+.registered table th{padding:6px;text-align:center;font-weight:bold;font-size:15px;background-color:#51AEB9;}
+.registered table tr td{padding:3px;text-align:center;font-size:15px}
+.registered  h3{text-align:center;padding:10px;margin-bottom:20px;}
+.registered  h4{text-align:center;margin-top:10px;color:#1A5276}
+.registered .confirm{margin-left:473px;margin-bottom:20px;border:none;padding:5px 8px;}
+.add_courses{margin:20px}
+.registered a{text-decoration:none}
+
+/*-----------MODAL----------------*/
+.modal-body form span{font-size:15px;color:#000;padding-left:20px;}
+.modal-body form input{width:90%;margin:5px 5px 5px 15px;padding:5px 20px;color:#000;font-size:17px}
+.modal-body form button{padding:10px 20px;margin-left:20px;color:#fff;background-color:#325d88;border:none;margin-bottom:30px;}
+.modal-body form a{text-decoration:none;}
+
+
+/*-------------------------all student---------------------*/
+
+.student_semester p{padding:10px;font-size:15px;text-align:center}
+.student_semester a{text-decoration:none;}
+
+
+
+
+
+
+
+
